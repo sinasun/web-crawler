@@ -38,7 +38,7 @@ def link_to_filename(link):
 def crawl_website(url):
 	normalized_url = normalize_link(url)
 	
-	create_folder(link_to_filename(	
+	create_folder(link_to_filename())	
 
 
 	
