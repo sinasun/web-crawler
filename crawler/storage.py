@@ -19,8 +19,8 @@ def append_to_file(file_path, line):
 
 
 def create_folder(path):
-	
-	os.makedirs(path)
+	if not os.path.exists(path):
+		os.makedirs(path)
 
 
 def delete_folder(path):
