@@ -42,9 +42,9 @@ To use the WebCrawler, follow these steps:
 
 python3 main.py -w <website_url> -o <output_folder>
 
+```
 Replace `<website_url>` with the URL of the website you want to crawl and `<output_folder>` with the folder where you want to save the extracted data.
 
-```
 3. The script will start crawling the website and extracting data. The extracted data will be saved in the specified output folder.
 
 
