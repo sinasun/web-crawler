@@ -1,6 +1,7 @@
 # Web Crawler
 
-This is a multithread chatroom project built with C++ using sockets and mutexes.
+The WebCrawler is a Python script that allows you to crawl websites and extract data from them. It provides a command-line interface for easy configuration and usage.
+
 
 
 ## Table of Contents
