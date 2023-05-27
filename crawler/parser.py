@@ -6,7 +6,7 @@ from urllib.parse import urlparse, urljoin
 
 def parse_link(link, domain):
 
-	print("parsing: " + link)
+	print("Parsing: " + link)
 	response = requests.get(link)
 
 	if response.status_code == 200:
@@ -35,8 +35,6 @@ def extract_data(soup, domain):
 
 	filtered_links = list(set(filtered_links))
 
-	print("Found Link:")
-	print(filtered_links)
 
 	headings = soup.find_all(['h1', 'h2', 'h3', 'h4', 'h5', 'h6'])
 
