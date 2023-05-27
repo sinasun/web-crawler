@@ -1,4 +1,4 @@
-# WebCrawler
+# Web Crawler
 
 This is a multithread chatroom project built with C++ using sockets and mutexes.
 
