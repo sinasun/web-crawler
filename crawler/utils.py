@@ -1,14 +1,7 @@
 import requests
+import re
+
 from urllib.parse import urlparse
-
-def check_link_availabality(link):
-
-	reponse = requests.get(link)
-
-	if response.status.code == 200:
-		return True
-	else:
-		return False
 
 
 def normalize_link(link):

@@ -2,10 +2,10 @@ import os
 import shutil
 
 def check_line_exists(file_path, line):
-
+	print(line)
 	with open(file_path, 'r') as file:
-		for line in file:
-			if line.strip() == target_line:
+		for l in file:
+			if l.strip() == line:
 				return True
 
 	return False
